@@ -1,0 +1,150 @@
+{
+  "acceptedResumeTypes": [
+    "html",
+    "text",
+    "txt",
+    "pdf",
+    "doc",
+    "docx",
+    "rtf",
+    "odt"
+  ],
+  "companyName": "",
+  "companyLogoPath": "",
+  "companyUrl": "",
+  "careersUrl": "",
+  "defaultLocale": "en-US",
+  "supportedLocales": [
+    "en-US",
+    "en-GB",
+    "en",
+    "fr-FR",
+    "fr",
+    "es",
+    "de",
+    "it",
+    "nl",
+    "ru",
+    "zh-CN"
+  ],
+  "languageDropdownOptions": {
+    "enabled": true,
+    "choices": [
+      {
+        "localeCode": "en",
+        "name": "English"
+      },
+      {
+        "localeCode": "fr",
+        "name": "French"
+      },
+      {
+        "localeCode": "es",
+        "name": "Spanish"
+      },
+      {
+        "localeCode": "de",
+        "name": "German"
+      },
+      {
+        "localeCode": "it",
+        "name": "Italian"
+      },
+      {
+        "localeCode": "nl",
+        "name": "Dutch"
+      },
+      {
+        "localeCode": "ru",
+        "name": "Russian"
+      },
+      {
+        "localeCode": "zh-CN",
+        "name": "Chinese"
+      }
+    ]
+  },
+  "minUploadSize": 4096,
+  "maxRelatedJobs": 5,
+  "maxUploadSize": 5242880,
+  "service": {
+    "batchSize": 500,
+    "corpToken": "47YIPS",
+    "port": null,
+    "swimlane": "70",
+    "fields": [
+      "id",
+      "title",
+      "publishedCategory(id,name)",
+      "address(city,state,zip)",
+      "employmentType",
+      "dateLastPublished",
+      "publicDescription",
+      "isOpen",
+      "isPublic",
+      "isDeleted",
+      "publishedZip",
+      "salary",
+      "salaryUnit"
+    ],
+    "jobInfoChips": [
+      "employmentType",
+      {
+        "type": "mediumDate",
+        "field": "dateLastPublished"
+      }
+    ],
+    "showCategory": true,
+    "keywordSearchFields": ["publicDescription", "title"],
+    "apply": {
+      "baseUrl": "https://apigw-EU-PRD.manpowergroup.com/ws/rest/v1",
+      "candidateInfo": "/candidate/sync-candidate/",
+      "candidateAttachments": "/candidate/create-attachment",
+      "uat_apiKey": "ba35a56b35894ebc89a86f6d24e5c678",
+      "apiKey": "9d9076513125493ab4d4033411f22ed1"
+    }
+  },
+  "additionalJobCriteria": {
+    "field": "owner.departments.id",
+    "values": ["1000006"],
+    "sort": "-dateLastPublished"
+  },
+  "integrations": {
+    "googleAnalytics": {
+      "trackingId": "G-RQCG4PPYBS"
+    },
+    "googleSiteVerification": {
+      "verificationCode": ""
+    }
+  },
+  "eeoc": {
+    "genderRaceEthnicity": false,
+    "veteran": false,
+    "disability": false
+  },
+  "privacyConsent": {
+    "consentCheckbox": true,
+    "sidebarLink": true,
+    "privacyPolicyUrl": "/privacy"
+  },
+  "recruitmentProcessesConsent": {
+    "consentCheckbox": true,
+    "defaultValue": false,
+    "required": true
+  },
+  "marketingActivitiesConsent": {
+    "consentCheckbox": true,
+    "defaultValue": false,
+    "required": false
+  },
+  "sensitiveDataProcessingConsent": {
+    "consentCheckbox": true,
+    "defaultValue": false,
+    "required": false
+  },
+  "dataStorageConsent": {
+    "consentCheckbox": false,
+    "defaultValue": false,
+    "required": false
+  }
+}

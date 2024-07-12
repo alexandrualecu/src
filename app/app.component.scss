@@ -1,0 +1,427 @@
+company-logo {
+  margin: 10px;
+}
+
+.boxUtilita {
+  //background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  border-top: 0.5px solid gray;
+  background-color: #f4f4f4;
+  line-height: 30px;
+  min-height: 30px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+}
+
+.box-title {
+  font: 95%/1.4 HelveticaNeueRoman,sans-serif;
+  font-family: HelveticaNeueThin, HelveticaNeueRoman, sans-serif;
+  margin: 0;
+  color: #9e9fa2;
+  box-sizing: border-box
+}
+h1,.aui h2,.aui h3,.aui h4,.aui h5,.aui h6 {
+}
+
+.boxFooter {
+  color: #fff;
+  background-color: #6591c3;
+  background-image: linear-gradient(to bottom, #6591c3, #335886);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+}
+.boxFooter {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.cellmenuUtilita {
+  vertical-align: middle;
+  text-align: left;
+  box-sizing: border-box;
+  display: table-cell;
+  width: 70%;
+}
+
+ul.menuSecondario {
+  padding: 0;
+  margin: 0 0 10px 10px;
+  list-style: none;
+}
+
+ul.menuSecondario>li>a {
+  text-decoration: none;
+  color: #4e6680;
+  font-weight: 200;
+  font-size: 14px;
+  font: 95%/1.4 HelveticaNeueRoman,sans-serif;
+}
+
+ul.menuSecondario li {
+  margin-right: 10px;
+}
+ul.menuSecondario>li {
+  float: left;
+  position: relative;
+  display: block;
+  color: #4e6680;
+  margin-right: 5px;
+}
+ul.menuSecondario li {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cellsocial {
+  vertical-align: middle;
+  text-align: right;
+  box-sizing: border-box;
+  display: table-cell;
+  width: 30%;
+  color: #2c3c43;
+}
+
+.cellsocial a {
+  display: inline;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+
+
+.socialMobile .socialMobileWrapper {
+  text-align: center;
+  padding: 10px 0
+}
+
+.socialMobile .CopyMobile {
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+  color: #575f61;
+  text-align: center;
+  font-size: 14px
+}
+
+footer .titoloOfferte .cellTitoloOfferte {
+  display: table-cell;
+  width: 50%;
+  font-size: 1.8em;
+  vertical-align: middle;
+  text-align: left;
+  padding: 20px 10px
+}
+
+footer .titoloOfferte .cellTitoloOfferte.cell-b {
+  font-size: 14px;
+  text-align: right;
+}
+
+footer .titoloOfferte .cellTitoloOfferte.cell-b a {
+  color: #fff
+}
+
+footer #mapFooter {
+  margin: 0 auto;
+  min-height: 150px
+}
+
+#totemModal .modal-body {
+  max-height: none!important
+}
+
+
+.box-title {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.box-title h3 {
+  color: #fff;
+  padding: 5px 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 25px;
+  margin: 0;
+  font-weight: bold
+}
+
+.box-title a h3 {
+  text-decoration: none
+}
+
+.box-title a:hover h3 {
+  color: #e77c22;
+  text-decoration: none
+}
+
+.box-title h3:after {
+  width: 100px;
+  height: 2px;
+  margin: 4px 0;
+  display: block;
+  content: "";
+  background: #dae4f0
+}
+
+.footerMobile {
+  display: none
+}
+
+.titoloOfferte {
+  display: none;
+  width: 100%;
+  background-color: #718c9e;
+  color: white
+}
+
+.socialMobile {
+  display: none
+}
+
+.boxMenu {
+  padding-left: 10px;
+  box-sizing: border-box
+}
+
+#mapFooter {
+  display: none;
+}
+.boxAnnunciFooter {
+  display: table;
+  width: 100%;
+}
+
+.boxAnnunciRegFooter {
+  display: table-cell;
+  width: 41%;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.boxAnnunciProvincieFooter {
+  display: table-cell;
+  width: 20%;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+
+.boxAnnunciRicercatiFooter {
+  display: table-cell;
+  width: 20%;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+
+.boxLinkIstFooter {
+  display: table-cell;
+  width: 17%;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  background-color: #475e78
+}
+
+ul.listaLinkIstBase {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .bannerDesk {
+    border-bottom: 1px solid #f7f7f7
+  }
+
+  .boxFooter {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1
+  }
+
+  .menuSecondario > li {
+    width: 80%;
+  }
+
+  .boxAnnunciRegFooter {
+    display: block;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: #475e78
+  }
+
+  .boxAnnunciProvincieFooter {
+    display: block;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 0;
+    background-color: #475e78
+  }
+
+  .boxAnnunciRicercatiFooter {
+    display: block;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 0;
+    background-color: #475e78
+  }
+
+  .boxLinkIstFooter {
+    display: block;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    background-color: transparent
+  }
+
+  .cellSpace {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 10px
+  }
+
+  .cellSpace:before {
+    width: 98%;
+    height: 1px;
+    margin: 0 auto 10px auto;
+    display: block;
+    content: "";
+    background: #dae4f0
+  }
+
+  .footerMobile {
+    display: block
+  }
+
+  .titoloOfferte {
+    display: table;
+    width: 100%;
+    background-color: #718c9e;
+    color: white
+  }
+
+  .socialMobile {
+    display: block;
+    background-color: #fff;
+    padding: 20px 0
+  }
+}
+
+.boxFooterDesktopCopy {
+  background: #386097;
+  color: #fff;
+  text-align: left;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+//
+//@font-face {
+//  font-family: "HelveticaNeueLight";
+//  src: url("assets/font/NotoSans-Light.eot");
+//  src: url("assets/font/NotoSans-Light.eot?#iefix") format("eot"), url("assets/font/NotoSans-Light.woff2") format("woff2"), url("assets/font/NotoSans-Light.woff") format("woff"), url("assets/font/NotoSans-Light.ttf") format("truetype"), url("assets/font/NotoSans-Light.svg#NotoSans-Light") format("svg");
+//  font-weight: 300;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: "HelveticaNeueRoman";
+//  src: url("assets/font/NotoSans-Regular.eot");
+//  src: url("assets/font/NotoSans-Regular.eot?#iefix") format("eot"), url("assets/font/NotoSans-Regular.woff2") format("woff2"), url("assets/font/NotoSans-Regular.woff") format("woff"), url("assets/font/NotoSans-Regular.ttf") format("truetype"), url("assets/font/NotoSans-Regular.svg#NotoSans-Regular") format("svg");
+//  font-weight: normal;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: "HelveticaNeueItalic";
+//  src: url("assets/font/NotoSans-Italic.eot");
+//  src: url("assets/font/NotoSans-Italic.eot?#iefix") format("eot"), url("assets/font/NotoSans-Italic.woff2") format("woff2"), url("assets/font/NotoSans-Italic.woff") format("woff"), url("assets/font/NotoSans-Italic.ttf") format("truetype"), url("assets/font/NotoSans-Italic.svg#NotoSans-Italic") format("svg");
+//  font-weight: normal;
+//  font-style: italic
+//}
+//
+//@font-face {
+//  font-family: "HelveticaNeueMedium";
+//  src: url("assets/font/NotoSans-Medium.eot");
+//  src: url("assets/font/NotoSans-Medium.eot?#iefix") format("eot"), url("assets/font/NotoSans-Medium.woff2") format("woff2"), url("assets/font/NotoSans-Medium.woff") format("woff"), url("assets/font/NotoSans-Medium.ttf") format("truetype"), url("assets/font/NotoSans-Medium.svg#NotoSans-Medium") format("svg");
+//  font-weight: 500;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: "HelveticaNeueBold";
+//  src: url("assets/font/NotoSans-Bold.eot");
+//  src: url("assets/font/NotoSans-Bold.eot?#iefix") format("eot"), url("assets/font/NotoSans-Bold.woff2") format("woff2"), url("assets/font/NotoSans-Bold.woff") format("woff"), url("assets/font/NotoSans-Bold.ttf") format("truetype"), url("assets/font/NotoSans-Bold.svg#NotoSans-Bold") format("svg");
+//  font-weight: bold;
+//  font-style: normal
+//}
+//
+//@font-face {
+//  font-family: "HelveticaNeueUltra";
+//  src: url("assets/font/NotoSans-ExtraBold.eot");
+//  src: url("assets/font/NotoSans-ExtraBold.eot?#iefix") format("eot"), url("assets/font/NotoSans-ExtraBold.woff2") format("woff2"), url("assets/font/NotoSans-ExtraBold.woff") format("woff"), url("assets/font/NotoSans-ExtraBold.ttf") format("truetype"), url("assets/font/NotoSans-ExtraBold.svg#NotoSans-ExtraBold") format("svg");
+//  font-weight: bold;
+//  font-style: normal
+//}
+//
+
+@font-face {
+  font-family: "HelveticaNeueThin";
+  src: url("./font/NotoSans-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal
+}
+
+//
+//@font-face {
+//  font-family: 'qfont';
+//  src: url("font/qfont.eot?go84q6");
+//  src: url("font/qfont.eot?go84q6#iefix") format("embedded-opentype"), url("font/qfont.ttf?go84q6") format("truetype"), url("font/qfont.woff?go84q6") format("woff"), url("font/qfont.svg?go84q6#qfont") format("svg");
+//  font-weight: normal;
+//  font-style: normal
+//}
